@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [SuiteAll]">
+  <test thread-count="5" verbose="2" name="launching(failed)">
+    <classes>
+      <class name="demo3.class1">
+        <methods>
+          <include name="UserName"/>
+        </methods>
+      </class> <!-- demo3.class1 -->
+    </classes>
+  </test> <!-- launching(failed) -->
+  <test thread-count="5" verbose="2" name="First(failed)">
+    <classes>
+      <class name="demo3.classes2">
+        <methods>
+          <include name="notificationclc"/>
+        </methods>
+      </class> <!-- demo3.classes2 -->
+    </classes>
+  </test> <!-- First(failed) -->
+  <test thread-count="5" verbose="2" name="second(failed)">
+    <classes>
+      <class name="demo3.class1">
+        <methods>
+          <include name="ClickSignin"/>
+        </methods>
+      </class> <!-- demo3.class1 -->
+    </classes>
+  </test> <!-- second(failed) -->
+  <test thread-count="5" verbose="2" name="third(failed)">
+    <classes>
+      <class name="demo3.classes2">
+        <methods>
+          <include name="ProdListed"/>
+        </methods>
+      </class> <!-- demo3.classes2 -->
+    </classes>
+  </test> <!-- third(failed) -->
+  <test thread-count="5" verbose="2" name="fourth(failed)">
+    <classes>
+      <class name="demo3.class1">
+        <methods>
+          <include name="OTP"/>
+        </methods>
+      </class> <!-- demo3.class1 -->
+    </classes>
+  </test> <!-- fourth(failed) -->
+  <test thread-count="5" verbose="2" name="fifth(failed)">
+    <classes>
+      <class name="demo3.classes2">
+        <methods>
+          <include name="verifymypro"/>
+        </methods>
+      </class> <!-- demo3.classes2 -->
+    </classes>
+  </test> <!-- fifth(failed) -->
+  <test thread-count="5" verbose="2" name="sixth(failed)">
+    <classes>
+      <class name="demo3.class1">
+        <methods>
+          <include name="SearchPro"/>
+        </methods>
+      </class> <!-- demo3.class1 -->
+    </classes>
+  </test> <!-- sixth(failed) -->
+  <test thread-count="5" verbose="2" name="seventh(failed)">
+    <classes>
+      <class name="demo3.class3">
+        <methods>
+          <include name="GoToADDtocart"/>
+        </methods>
+      </class> <!-- demo3.class3 -->
+    </classes>
+  </test> <!-- seventh(failed) -->
+  <test thread-count="5" verbose="2" name="eighth(failed)">
+    <classes>
+      <class name="demo3.class3">
+        <methods>
+          <include name="verifyproduct"/>
+        </methods>
+      </class> <!-- demo3.class3 -->
+    </classes>
+  </test> <!-- eighth(failed) -->
+  <test thread-count="5" verbose="2" name="ninth(failed)">
+    <classes>
+      <class name="demo3.class3">
+        <methods>
+          <include name="RemoveMYpro"/>
+        </methods>
+      </class> <!-- demo3.class3 -->
+    </classes>
+  </test> <!-- ninth(failed) -->
+</suite> <!-- Failed suite [SuiteAll] -->

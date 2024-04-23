@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteAll" verbose="2">
+	<test name="launching" thread-count="1">
+
+		<classes>
+			<class name="demo3.class1">
+				<methods>
+					<include name="UserName"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="First" thread-count="1">
+
+		<classes>
+			<class name="demo3.classes2">
+				<methods>
+					<include name="notificationclc"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="second" thread-count="1">
+
+		<classes>
+			<class name="demo3.class1">
+				<methods>
+					<include name="ClickSignin"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="third" thread-count="1">
+
+		<classes>
+			<class name="demo3.classes2">
+				<methods>
+					<include name="ProdListed"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="fourth" thread-count="1">
+
+		<classes>
+			<class name="demo3.class1">
+				<methods>
+					<include name="OTP"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="fifth" thread-count="1">
+
+		<classes>
+			<class name="demo3.classes2">
+				<methods>
+					<include name="verifymypro"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="sixth" thread-count="1">
+
+		<classes>
+			<class name="demo3.class1">
+				<methods>
+					<include name="SearchPro"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="seventh" thread-count="1">
+
+		<classes>
+			<class name="demo3.class3">
+				<methods>
+					<include name="GoToADDtocart"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="eighth" thread-count="1">
+
+		<classes>
+			<class name="demo3.class3">
+				<methods>
+					<include name="verifyproduct"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="ninth" thread-count="1">
+
+		<classes>
+			<class name="demo3.class3">
+				<methods>
+					<include name="RemoveMYpro"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="tenth" thread-count="1">
+
+		<classes>
+			<class name="demo4.class4">
+				<methods>
+					<include name="launching"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="elevnth" thread-count="1">
+
+		<classes>
+			<class name="demo4.class4">
+				<methods>
+					<include name="Quit"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
